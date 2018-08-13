@@ -3,6 +3,27 @@
 <meta name="viewport" content="device-width, initial-scale=1">
 <link rel="stylesheet" href="w3.css">
 <style>
+body{
+  
+  background: url(wall.png) ;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #464646;
+  
+
+}
+.w3-cover{
+  z-index: 10000;
+  font-size:100px;
+  text-align:center;
+  position: absolute;
+  width: 20%;
+  padding-top: 100px;
+  color: white;
+  font-family: 'Lato';
+}
 .w3-bar {
   overflow: hidden;
   background-color: #333;
@@ -12,85 +33,75 @@
 
 }
 h5 {
-  font-family: Verdana;
+  font-family: Arial;
+}
+h2 {
+  font-family: Comic San MS Header;
+}
+
+h1,h4 {
+  font-family: Alias;
+}
+
+h3 {
+  font-family: Alias;
 }
 hr {
     overflow: visible; 
     height: 30px;
     border-style: solid;
-    border-color: red;
+    border-color: gold;
     border-width: 1px 0 0 0;
     border-radius: 20px;
 }
-.w3-customred {
-    background-color: #800000;
-}
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 
 </style>
 
 <body>
+  <audio autoplay loop>
+      <source src="mp3/lap1.mp3">
+</audio>
 
-	<div class="w3-bar w3-black" style="width:100%">
- 	<a href="index.html" class="w3-bar-item w3-button w3-mobile w3-hover-yellow">Home</a>
-	<a href="index2.html" class="w3-bar-item w3-button w3-mobile w3-hover-yellow">About</a>
-	<a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-yellow">Contact</a>
-	<a href="#" class="w3-bar-item w3-button w3-mobile w3-black w3-xxxsmall" onclick="w3_open()">&#9818;</a>
-</div>
-</div>	
-<div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
-	<button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
-  	<a href="index.html" class="w3-bar-item w3-button w3-mobile w3-hover-yellow">Home</a>
-  	<a href="indext2.html" class="w3-bar-item w3-button w3-mobile w3-hover-yellow">About</a>
-  	<a href="#" class="w3-bar-item w3-button w3-mobile w3-hover-yellow">Contact</a>
+<div id="mySidenav" class="sidenav">
+  <a href="index2.html" id="home"><h4>Home</h4></a>
+  <a href="index3.html" id="about"><h4>About</h4></a>
+  <a href="index4.html" id="interest"><h4>Interest</h4></a>
+  <a href="index5.html" id="gallery"><h4>Gallery</h4></a>
+  <a href="index6.html" id="quiz"><h4>Quiz</h4></a>
 </div>
 
-	<div class="w3-container w3-customred w3-mobile">
-	<div class="w3-container w3-margin-top  w3-customred  w3-round-xxlarge w3-mobile">
+	<div class="w3-container w3-transparent w3-mobile">
+	<div class="w3-container w3-margin-top  w3-transparent  w3-round-xxlarge w3-mobile">
 
-<div class="w3-content w3-margin-top w3-margin-bottom" style="max-width: 2000px">
-  
-  
-  <img class="w3-round-xxlarge" src="head.png"  width="2000" height="500"style="width:100%">
-
+<div class="w3-content w3-margin-top w3-margin-bottom" style="max-width: 3000px">
+  <img class="w3-round-xxxlarge w3-padding-64" src="samplegt.png"  width="2000" height="800"style="width:100%">
+  </div>
 </div>
-<div class="w3-col w3-black w3-container w3-topbar w3-bottombar w3-border-amber w3-margin-bottom  w3-padding-32 w3-round-xxlarge w3-margin-top w3-mobile" style="width:100%">
-      <header class="w3-container w3-white w3-round-xxlarge w3-center  ">
-      <span class="w3-tag w3-jumbo w3-red w3-animate-left">W</span>
-      <span class="w3-tag w3-jumbo w3-animate-right">E</span>
-      <span class="w3-tag w3-jumbo w3-yellow w3-animate-left">L</span>
-      <span class="w3-tag w3-jumbo w3-animate-right">C</span>
-      <span class="w3-tag w3-jumbo w3-red w3-animate-left">O</span>
-      <span class="w3-tag w3-jumbo w3-animate-right">M</span>
-      <span class="w3-tag w3-jumbo w3-yellow w3-animate-left">E</span>
+<div class="w3-col w3-transparent w3-container w3-topbar w3-bottombar w3-border-amber w3-margin-bottom  w3-padding-16 w3-xlarge  w3-mobile" style="width:100%">
+      <header class="w3-container w3-transparent w3-round-xxlarge w3-center w3-mobile">
+     
+
+      <span class="w3-tag w3-jumbo w3-white w3-round-xxlarge "><img src="icon.png" alt="" height="100">HELLO</span>
+      <span class="w3-tag w3-jumbo w3-round-xxlarge ">GUYS!<img src="icon.png" alt="" height="100"></span>
+    
       
+      
+
       </header>
 </div>
-<div class="w3-row w3-customred">
-<div class="w3-col w3-black w3-topbar w3-bottombar w3-border-amber  w3-container w3-padding-32 w3-round-xxlarge w3-mobile" style="width:49%">
-      <header class="w3-container w3-white w3-round-xxlarge w3-center ">
-      <span class="w3-tag w3-xxxlarge w3-red">B</span>
-      <span class="w3-tag w3-xxxlarge">A</span>
-      <span class="w3-tag w3-xxxlarge w3-yellow">C</span>
-      <span class="w3-tag w3-xxxlarge">K</span>
-      <span class="w3-tag w3-xxxlarge w3-red">G</span>
-      <span class="w3-tag w3-xxxlarge">R</span>
-      <span class="w3-tag w3-xxxlarge w3-yellow">O</span>
-      <span class="w3-tag w3-xxxlarge">U</span>
-      <span class="w3-tag w3-xxxlarge w3-yellow">N</span>
-      <span class="w3-tag w3-xxxlarge">D</span>
+<div class="w3-row w3-transparent">
+<div class="w3-col w3-trans-red w3-topbar w3-bottombar w3-border-amber  w3-container w3-padding-32 w3-round-xxlarge w3-mobile" style="width:49%">
+      <header class="w3-container w3-transparent w3-round-xxlarge w3-center ">
+      <span class="w3-tag w3-jumbo w3-trans-yellow w3-round-xxlarge w3-leftbar w3-rightbar w3-mobile"><h1 class="w3-xxxlarge"><img src="final8.png" alt="" height="90"><u><b>BACKGROUND</u></b>
+      <img src="final8.png" alt="" height="90"></span></h1>
+      
       
 
 
       </header>
-<div class="w3-container w3-justify w3-padding-32">
-      <img src="profilepic.jpg" class="w3-border w3-round-xxlarge" alt="Profile" style="padding:4px;width:40%" align="left"><h5>He is Currently studying Bachelor of Science and Technology in Pasig Catholic College. There is a good characteristic when it comes to comprehensive reading, effective in observing information, capable of exploring things that aid in a study of a group and a good contributor. He often wants to search for things that can help and benefit his team in different aspects and motives. He has had a lot of experience in being a leader since high school maybe it was a way to give an initiative to a group he belonged to.
+<div class="w3-container w3-justify w3-padding-32  ">
+
+      <img src="profilepic.jpg" class="w3-border w3-round-xxlarge w3-image" alt="Profile" style="padding:4px;width:40%" align="left"><h5>He is Currently studying Bachelor of Science and Technology in Pasig Catholic College. There is a good characteristic when it comes to comprehensive reading, effective in observing information, capable of exploring things that aid in a study of a group and a good contributor. He often wants to search for things that can help and benefit his team in different aspects and motives. He has had a lot of experience in being a leader since high school maybe it was a way to give an initiative to a group he belonged to.
       <hr>
       Currently he is in the third year of his course he is in the thesis project phase. Where his clan is forming a concept for their project to begin with their system analysis and design where they are conducting interviews and gathering information to various companies and communities.
       <hr>
@@ -98,146 +109,98 @@ hr {
       
 </div>
 </div>
-<div class="w3-col w3-customred  w3-container w3-mobile w3-margin-top" style="width:2%">
+<div class="w3-col w3-transparent  w3-container w3-mobile w3-margin-top" style="width:2%">
 </div>
-<div class="w3-col w3-black w3-container w3-topbar w3-bottombar w3-border-amber w3-padding-32  w3-round-xxlarge w3-mobile" style="width: 49%">
-  <header class="w3-container w3-white w3-round-xxlarge w3-center ">
-      <span class="w3-tag w3-xxxlarge w3-red">G</span>
-      <span class="w3-tag w3-xxxlarge">R</span>
-      <span class="w3-tag w3-xxxlarge w3-yellow">A</span>
-      <span class="w3-tag w3-xxxlarge">N</span>
-      <span class="w3-tag w3-xxxlarge w3-red">D</span>
-      <span class="w3-tag w3-xxxlarge">M</span>
-      <span class="w3-tag w3-xxxlarge w3-yellow">A</span>
+<div class="w3-col w3-trans-red w3-container w3-topbar w3-bottombar w3-border-amber w3-padding-32  w3-round-xxlarge w3-mobile" style="width: 49%">
+  <header class="w3-container w3-transparent w3-round-xxlarge w3-center ">
+      
+      <header class="w3-container w3-transparent w3-round-xxlarge w3-center ">
+      <span class="w3-tag w3-jumbo w3-trans-yellow w3-round-xxlarge w3-leftbar w3-rightbar w3-mobile"><h1 class="w3-xxxlarge"><img src="final3.png" alt="" height="90"><u><b>GRANDMA</u></b>
+      <img src="final3.png" alt="" height="90"></span></h1>
+      
       
       
       
       </header>
-<div class="w3-container w3-justify w3-padding-32">
-  <img src="content2.jpg" class="w3-border w3-round-xxlarge" alt="Profile" style="padding:4px;width:40%" align="left"><h5>Im Edson Levi Sion, just call me "Levi". I really grew up in Pasig from Barangay Bambang. Almost a decade we've lived in our day-to-day life we ​​witnessed the difficulties and anguish of our family there. Maybe you're wondering who's in the picture with me, She is my beloved Grandma. At the portrait it was the when I graduated from elementary she was always with me at every graduation from preschool to high school. I can say I was so blessed and I had such kind of grandmother that we were always guided up to my growth. 
+<div class="w3-container w3-justify w3-padding-32 ">
+  <img src="content2.jpg" class="w3-border w3-round-xxlarge" alt="Profile" style="padding:4px;width:40%"align="left"><h5>Im Edson Levi Asuncion Sion, just call me "Levi". I really grew up in Pasig from Barangay Bambang. Almost a decade we've lived in our day-to-day life witness the difficulties and anguish of our family there. Maybe you're wondering who's in the picture with me, She is my beloved Grandma. At the portrait it was the when I graduated from elementary she was always with me at every graduation from preschool to high school. I can say I was so blessed and I had such kind of grandmother that we were always guided up to my growth. 
       <hr>
       It's nice to have a grandmother especially when you talk about her past life and give you guidance and lesson on what to do in life.Sometimes it's a good thing to remember about the past when she's just there besides telling me a problem, talking about what happened to her all day, being with me and taking food every day, and I can say the words "I love you Lola"."Thank you Lola".  "I Miss you Lola".</h5>
 
-    <p class="w3-medium w3-text-yellow"><i><u>"Grandmothers always have time to talk and make you feel special" 
+    <p class="w3-medium w3-text-yellow"><i><u>"Grandmothers always have time to talk and make you feel special" </i>
        
     
 
 </div>
 </div>
-<div class="w3-col w3-black w3-container w3-topbar w3-bottombar w3-border-amber w3-margin-bottom  w3-padding-32 w3-round-xxlarge w3-margin-top w3-mobile" style="width:100%">
-      <header class="w3-container w3-white w3-round-xxlarge w3-center  ">
-      <span class="w3-tag w3-jumbo w3-red w3-animate-fading">H</span>
-      <span class="w3-tag w3-jumbo w3-animate-fading">O</span>
-      <span class="w3-tag w3-jumbo w3-yellow w3-animate-fading">W</span>
-      <span class="w3-tag w3-jumbo w3-animate-fading"> </span>
-      <span class="w3-tag w3-jumbo w3-red w3-animate-fading">A </span>
-      <span class="w3-tag w3-jumbo w3-animate-fading">R</span>
-      <span class="w3-tag w3-jumbo w3-red w3-yellow w3-animate-fading">E</span>
-      <span class="w3-tag w3-jumbo w3-yellow w3-animate-fading"></span>
-      <span class="w3-tag w3-jumbo w3-red w3-animate-fading">Y</span>
-      <span class="w3-tag w3-jumbo w3-animate-fading">O</span>
-      <span class="w3-tag w3-jumbo w3-yellow w3-animate-fading">U</span>
-      <span class="w3-tag w3-jumbo w3-animate-fading">?</span>
- 
+<div class="w3-col w3-transparent w3-container w3-topbar w3-bottombar w3-border-amber w3-margin-bottom  w3-padding-32 w3-xlarge w3-margin-top w3-mobile" style="width:100%">
+      <header class="w3-container w3-transparent w3-round-xxlarge w3-center  ">
+      
+      <span class="w3-tag w3-jumbo w3-white w3-round-xxlarge "><img src="icon.png" alt="" height="100">HEY</span>
+      <span class="w3-tag w3-jumbo w3-round-xxlarge ">THERE!<img src="icon.png" alt="" height="100"></span>
       
       
       </header>
 
 </div>
 </div>
-<div class="w3-row w3-customred">
-<div class="w3-col w3-black w3-container w3-topbar w3-bottombar w3-border-amber w3-padding-32 w3-round-xxlarge w3-margin-top w3-mobile" style="width:32%">
-      <header class="w3-container w3-white w3-round-xxlarge w3-center ">
-      <span class="w3-tag w3-xxlarge w3-red">C</span>
-      <span class="w3-tag w3-xxlarge">I</span>
-      <span class="w3-tag w3-xxlarge w3-yellow">T</span>
-      <span class="w3-tag w3-xxlarge">I</span>
-      <span class="w3-tag w3-xxlarge w3-red">Z</span>
-      <span class="w3-tag w3-xxlarge">E</span>
-      <span class="w3-tag w3-xxlarge w3-yellow">N</span>
+<div class="w3-row w3-transparent">
+<div class="w3-col w3-trans-red w3-container w3-topbar w3-bottombar w3-border-amber w3-padding-32 w3-round-xxlarge w3-margin-top w3-mobile" style="width:32%">
+      <header class="w3-container w3-transparent w3-round-xxlarge w3-center ">
+      <span class="w3-tag w3-jumbo w3-trans-yellow w3-leftbar w3-rightbar w3-round-xxlarge w3-mobile"><h1 class="w3-xxlarge"><img src="final5.png" alt="" height="90"><b>CITIZEN</b>
+      <img src="final5.png" alt="" height="90"></span></h1>
       </header>
 <div class="w3-container w3-justify w3-padding-32 ">
       <img src="content3a.jpg" class="w3-border w3-round-xxlarge" alt="Profile" style="padding:4px;width:40%" align="left"><h5>
       For me as a citizen has a great responsibility it comes for how I protect the value of being a Filipino. In our daily life being a good citizen is a good example to become a progressive nation in a variety of aspects of our lives, I do the work that my Filipino citizenship has to do with our own patronage, the right to vote every election, communicate with others to improve one's own life, I serve whenever I have the opportunity to work to improve my ability as a citizen and Fulfill the rights to protect our own country in deed.
       <hr>
-      I will dedicate my qualification to my homeland to provide services to my countrymen after my studies, I will honor teachers and helpers to finish my initiative to achieve my favored success
-
-      <h5>
+      I will dedicate my qualification to my homeland to provide services to my countrymen after my studies, I will honor teachers and helpers to finish my initiative to achieve my favored success.
+      <p class="w3-medium w3-text-yellow"><i><u>The first requisite of a good citizen in this republic of ours is that he shall be able and willing to pull his own weight. </i>
+</h5>
       
 </div>
 </div>
-<div class="w3-col w3-customred  w3-container w3-mobile" style="width:1%">
+<div class="w3-col w3-transparent  w3-container w3-mobile" style="width:1%">
 </div>
-<div class="w3-col w3-black w3-container  w3-topbar w3-bottombar w3-border-amber  w3-padding-32 w3-round-xxlarge w3-margin-top w3-mobile" style="width:32%">
-      <header class="w3-container w3-white w3-round-xxlarge w3-center ">
-      <span class="w3-tag w3-xxlarge w3-red">I</span>
-      <span class="w3-tag w3-xxlarge">N</span>
-      <span class="w3-tag w3-xxlarge w3-yellow">T</span>
-      <span class="w3-tag w3-xxlarge">E</span>
-      <span class="w3-tag w3-xxlarge w3-red">R</span>
-      <span class="w3-tag w3-xxlarge">E</span>
-      <span class="w3-tag w3-xxlarge w3-yellow">S</span>
-      <span class="w3-tag w3-xxlarge">T</span>
+<div class="w3-col w3-trans-red w3-container  w3-topbar w3-bottombar w3-border-amber  w3-padding-32 w3-round-xxlarge w3-margin-top w3-mobile" style="width:32%">
+      <header class="w3-container w3-transparent w3-round-xxlarge w3-center ">
+      <span class="w3-tag w3-jumbo w3-trans-yellow w3-leftbar w3-rightbar w3-round-xxlarge w3-mobile"><h1 class="w3-xxlarge"><img src="final6.png" alt="" height="90"><b>STUDENT</b>
+      <img src="final6.png" alt="" height="90"></span></h1>
       </header>
 <div class="w3-container w3-justify w3-padding-32">
+      <img src="content3b.jpg" class="w3-border w3-round-xxlarge" alt="Profile" style="padding:4px;width:40%" align="left"><h5>
+      As a student I would like to focus on my studies so that I can gain knowledge and expertise when it comes to my work in the future. Perhaps I can say that learning is one of the fun things to do in life, you only listen to what the professors teach and have my own research to shape what I want to know. Many like me have a lot to do but have no chance of study perhaps for lack of money to continue. I'm lucky because I've been given a chance to study again, I can say that this is a blessing for me .
+      <hr>
       
-        <ul>
-        <li><h5 class="w3-text-red">Arts & Entertainment:</h5> Updates about local celebrities about Comedy and Action </li>
-        <li><h5 class="w3-text-red">Humor:</h5> Banking Humor, Money Humor, Speaker Humor, Political Humor</li>
-        <li><h5 class="w3-text-red">Movies:</h5> Classic Comedy Genre </li>
-        <li><h5 class="w3-text-red">Music & Audio:</h5> All kinds of Music except KPOP genre</li>
-        <li><h5 class="w3-text-red">Television :</h5> Sports Channel and Movie Channel</li>
-        <li><h5 class="w3-text-red">Food & Drink:</h5> Pasta & Pineapple Juice</li>
-        <li><h5 class="w3-text-red">Books:</h5> A Song of Ice and Fire / Hitchhiker's guide to the galaxy/ A Series of Unfortunate Events/ Percy Jackson and the Olympians</li>
-
-        
-
-</ul></h5>
+      I can promise to try to fulfill my parent's dream to finish my studies. I'm trying my best to be a good student in all my subjects even in my school's activities. I will continue with the inspiration and guidance of the Lord.
+      <p class="w3-medium w3-text-yellow"><i><u>If you hear a voice within you say you cannot paint, then by all means paint, and that voice will be silenced. </i>
+     
+      </h5>
       
 </div>
 </div>
-<div class="w3-col w3-customred w3-container w3-mobile" style="width:1%">
+<div class="w3-col w3-transparent w3-container w3-mobile" style="width:1%">
 </div>
-<div class="w3-col w3-black w3-container w3-topbar w3-bottombar w3-border-amber  w3-padding-32 w3-round-xxlarge w3-margin-top w3-mobile" style="width:32%">
-      <header class="w3-container w3-white w3-round-xxlarge w3-center ">
-      <span class="w3-tag w3-xxlarge w3-red">E</span>
-      <span class="w3-tag w3-xxlarge">D</span>
-      <span class="w3-tag w3-xxlarge w3-yellow">U</span>
-      <span class="w3-tag w3-xxlarge w3-red">C</span>
-      <span class="w3-tag w3-xxlarge">A</span>
-      <span class="w3-tag w3-xxlarge w3-yellow">T</span>
-      <span class="w3-tag w3-xxlarge w3-red">I</span>
-      <span class="w3-tag w3-xxlarge">O</span>
-      <span class="w3-tag w3-xxlarge w3-yellow">N</span>
+<div class="w3-col w3-trans-red w3-container w3-topbar w3-bottombar w3-border-amber  w3-padding-32 w3-round-xxlarge w3-margin-top w3-mobile" style="width:32%">
+      <header class="w3-container w3-transparent w3-round-xxlarge w3-center ">
+      <span class="w3-tag w3-jumbo w3-trans-yellow w3-leftbar w3-rightbar w3-round-xxlarge w3-mobile"><h1 class="w3-xxlarge"><img src="final7.png" alt="" height="90"><b>SON</b>
+      <img src="final7.png" alt="" height="90"></span></h1>
      
       </header>
 <div class="w3-container w3-justify w3-padding-32">
-      <img src="content3ca.jpg" class="w3-border w3-round-xxlarge center" alt="Profile" style="padding:4px;width:40%" align="">
-      <h5 class="w3-text-red">First year: 2016-2017</h5>
-      <h5>
-        <ul>
-        <li>Learning IT Fundamentals</li>
-        <li>Creating simple game via scratch</li>
-        <li>Creating simple program via Java:BlueJ </li>
-        <li>Simple Database:PHP </li>
-      </ul>
-        
-      <h5 class="w3-text-red">Second Year: 2017-2018</h5>
-      <h5>
-        <ul>
-        <li>Learned to create simple app via Android Studio</li>
-        <li>Learned basic info about Intro to Networks Cisco1</li>
-        <li>Create Database Management System via MS:Access </li>
-        <li>Learned basic System Unit Disassembling</li>
-    
+      <img src="content3ca.jpg" class="w3-border w3-round-xxlarge" alt="Profile" style="padding:4px;width:40%" align="left"><h5>
+      I grew up with a simple yet happy family. We always go to church each week with each other since my childhood. I remember as I grow up my mood changes to what and how I interact with people, it affects my behavior. actually I grew taciturn and indifferent to someone else who was with me, maybe it was because we were not allowed to go out of the house when I was a kid I was always confined to the house. I have seen my parents the hardships of life, I see them how they work to give our siblings our daily necessities.  
+      <hr>
+      We are not raised to be material, our only life is simple to you to see us unity, and to have the Lord's guidance and I'm happy with what I am now.
+      <p class="w3-medium w3-text-yellow"><i><u>A child who is allowed to be disrespectful to his parents will not have true respect for anyone. </i>
+     
+      </h5>
+</div>
+</div>
 
-      </ul>
-      
-        
-</div>
-</div>
-<div class="w3-container w3-customred">
-<div class="w3-container w3-margin-top  w3-customred  w3-round-xxlarge w3-mobile">
+
+<div class="w3-container w3-transparent">
+<div class="w3-container w3-margin-top  w3-transparent  w3-round-xxlarge w3-mobile">
 
 <div class="w3-content w3-margin-top w3-margin-bottom" style="max-width: 2300px" >
   
@@ -246,21 +209,29 @@ hr {
   <img class="myLoop w3-animate-opacity w3-round-xxlarge" src="footer2.png" style="width:98%" width="2000" height="300">
   <img class="myLoop w3-animate-opacity w3-round-xxlarge" src="footer.png" style="width:98%"  width="2000" height="300">
   <img class="myLoop w3-animate-opacity w3-round-xxlarge" src="footer2.png" style="width:98%" width="2000" height="300">
+
+  
 </div>
- <audio autoplay loop>
-      <source src="backg.mp3">
-</audio>
 </div>
+
 <script>
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-}
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 7000);    
 }
 </script>
 <script>
-var myIndex = 1;
+var myIndex = 0;
 carousel();
 
 function carousel() {
@@ -275,6 +246,7 @@ function carousel() {
     setTimeout(carousel, 2500);    
 }
 </script>
+
 </body>
 </html>
 
