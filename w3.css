@@ -144,7 +144,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 #mySidenav a{position: fixed;left:-80px;transition:0.3s;padding:10px;width:100px;text-decoration: none;font-size:20px;color:white;border-radius: 0 5px 5px 0;}
 #mySidenav a:hover{left:0;}#home{top:20px;background: rgba(0, 0, 255,.4);}#about{top:100px;background: rgba(255, 0, 0,.4);}#interest{top:180px;background: rgba(0, 0, 255,.4);}
 #gallery{top:260px;background: rgba(255, 0, 0,.4);}#quiz{top:340px;background: rgba(0, 0, 255,.4);}
-
+@font-face{font-family:"Alias";src:url("fonts/alias-webfont.woff"),url("fonts/Alias.ttf")format("opentype");}
 /* Colors */
 .w3-trans-red{background: rgba(255, 0, 0,.8);}.w3-trans-blue{background: rgba(0, 0, 255,.8);}
 .w3-trans-yellow{background: rgba(255,255,0,0.4);},
